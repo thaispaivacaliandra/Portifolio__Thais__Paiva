@@ -1,0 +1,293 @@
+*{
+padding: 0%;
+margin:0%;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #070732;
+    
+}
+
+section{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 70px;
+    height: 1005px;
+    margin: auto;
+    position: relative;
+}
+
+.foto{
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.line{
+    position: absolute;
+    right: 0%;
+    top: 136px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.p_p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100 italic; 
+    font-size: 24px;
+    line-height: 50px;
+    color: #fbf7f8;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    list-style: none;
+    
+}
+
+h1{
+    color: #ffff;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 8px;
+}
+
+article{
+   width: 689px;
+   height: 556px;
+   position: absolute;
+   top: 193px;
+}
+
+.frufru {
+    width: 108px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #C21D59;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.botao {
+    width: 420px;
+    padding: 16px 49px;
+    background-color: #C21D59;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Heebo;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+footer{
+    background-color:#242445;
+    ;
+    width: 100%;
+    height: 200px;
+}
+
+.div_rodape{
+    max-width: 1300px;
+    width: 100%;
+    height: 200px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    list-style: none;
+}
+
+.logo_rodape{
+    width: 170px;
+    height: 70px;
+}
+
+.h1_footer {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 12px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_rodape{
+    list-style: none;
+}
+
+.linkedin_2{
+    width: 180px;
+    height: 50px;
+}
+
+@media(max-width:390px) {
+    
+
+    .logo{
+        width: 93px;
+        height: 40px;
+    }
+    
+    .foto{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        right: 0%;
+        top: 70px;
+    }
+    
+    .line{
+        position: absolute;
+        height: 390px;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        list-style: none;
+        font-family: "Poppins";
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .p_p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 100 italic; 
+        font-size: 12px;
+        line-height: 16px;
+        color: #fbf7f8;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-size: 12px;
+        font-weight: 700;
+        list-style: none;
+        
+    }
+    
+    h1{
+        color: #ffff;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-top: 8px;
+    }
+    
+
+    article{
+       width: 346px;
+       height: 245px;
+       margin-top: 70px;
+    }
+    
+    .frufru {
+        width: 49px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: #C21D59;
+        position: absolute;
+        top: -5px;
+        left: 0px;
+        
+    }
+    
+    h2{
+        font-size: 12px;
+    }
+
+    .botao {
+        width: 227px;
+        padding: 0 49px;
+        background-color: #C21D59;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Heebo;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    footer{
+        background-color:#242445;
+        width: 390px;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .div_rodape{
+        max-width: 390px;
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        list-style: none;
+    }
+    
+    .logo_rodape{
+        width: 93px;
+        height: 40px;
+    }
+    
+    .h1_footer {
+        font-family: "Poppins";
+        font-weight: 200;
+        font-size: 12px;
+        color: #ffff;
+        display: flex;
+        
+    }
+    
+    .menu_rodape{
+        list-style: none;
+    }
+    
+    .linkedin_2{
+        width: 50px;
+        height: 10px;
+    }
+}

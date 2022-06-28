@@ -1,0 +1,396 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    }
+    
+body{
+     background-color: #070732;
+}
+
+section{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    max-width: 1300px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    list-style: none;   
+}
+
+li{
+    font-family: Poppins;
+    list-style: none;
+    font-size: 18px;
+    color: #ffff;
+}
+
+#triangulo_para_baixo{
+    width: 0; 
+    height: 0; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid #C21D59;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 250px;
+    text-align: center;
+    color: #ffff;
+    font-size: 24px;
+    font-family: "Poppins";
+}
+
+#triangulo_para_esquerda{
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-right: 200px solid #C21D59;
+    position: absolute;
+    right: 0%;
+    top: 180px;
+    display: flex;
+    align-items:center ;
+}
+
+h1{
+    margin-left: 80px;
+    text-align: center;
+    color: #ffff;
+    font-size: 24px;
+    font-family: "Poppins";
+}
+
+
+.posicao_triangulo{
+    position: absolute;
+    top: 204px;
+    transform: (-50% , -50%);
+    
+}
+
+.anuncios_celulares{
+    width: 1037px;
+    height: 415px;
+    position: absolute;
+    top: 317px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 600ms;
+}
+
+.site_azul{
+    position: absolute;
+    top: 787px;
+    width: 489px;
+    height: 374px;
+}
+
+.trafego_pago{
+    width: 1300px;
+    position: absolute;
+    top: 1400px;
+}
+
+.ultima{
+    width: 1300px;
+    position: absolute;
+    top: 2300px;
+}
+
+.circulo{
+    margin-top: 72px;
+}
+
+footer{
+    background-color:#242445;
+    ;
+    width: 100%;
+    height: 200px;
+}
+
+.div_rodape{
+    max-width: 1300px;
+    width: 100%;
+    height: 200px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    list-style: none;
+}
+
+.logo_rodape{
+    width: 170px;
+    height: 70px;
+}
+
+.h1_footer {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 12px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_rodape{
+    list-style: none;
+}
+
+.linkedin_2{
+    width: 180px;
+    height: 50px;
+}
+
+.anuncios_celulares:hover{
+   width: 700px;
+   height: 600px;
+   left: 150px;
+   transition: all 600ms;
+}
+
+@media(max-width:440px){
+    section{
+        max-width: 440px;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        width: 130px;
+        height: 40px;
+    }
+    
+    .menu{
+        max-width: 440px;
+        padding: 0 16px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        list-style: none;
+        font-family: "Poppins";
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-size: 12px;
+        font-weight: 700;
+        list-style: none;   
+    }
+    
+    li{
+        font-family: Poppins;
+        list-style: none;
+        font-size: 12px;
+        color: #ffff;
+    }
+    
+    #triangulo_para_baixo{
+        width: 0; 
+        height: 0; 
+        border-left: 80px solid transparent;
+        border-right: 80px solid transparent;
+        border-top: 80px solid #C21D59;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h2{
+        margin-bottom: 100px;
+        text-align: center;
+        color: #ffff;
+        font-size: 12px;
+        font-family: "Poppins";
+    }
+    
+    #triangulo_para_esquerda{
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        border-right: 80px solid #C21D59;
+        position: absolute;
+        right: 0%;
+        top: 80px;
+        display: flex;
+        align-items:center ;
+    }
+    
+    h1{
+        margin-left: 30px;
+        text-align: center;
+        color: #ffff;
+        font-size: 12px;
+        font-family: "Poppins";
+    }
+    
+    .posicao_triangulo{
+        position: absolute;
+        top: 70px;
+        transform: (-50% , -50%);
+        
+    }
+    
+    .anuncios_celulares{
+        width: 440px;
+        height: 192px;
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+   .cel {
+        width: 142px;
+        height: 192px;
+    }
+    
+    .site_azul{
+        position: absolute;
+        display: flex;
+        align-content: center;
+        top: 300px;
+        width: 339px;
+        height: 258px;
+    }
+    
+    .azul{
+        width: 243px;
+        height: 186px;
+    }
+
+    .trafego_pago{
+        width: 440px;
+        position: absolute;
+        top: 600px;
+        display: flex;
+    }
+    
+    .ultima{
+        width: 440px;
+        position: absolute;
+        top: 1000px;
+    }
+    
+    .circulo{
+        margin-top: 72px;
+    }
+
+    .circ{
+        width: 381px;
+        height: 350px;
+    }
+
+    .circ2{
+        width: 381px;
+        height: 350px;
+        margin-top: 200px;
+    }
+
+    .tel{
+        width: 82px;
+        height: 142px;
+    }
+    .tel2{
+        width: 82px;
+        height: 160px;
+    }
+    
+    .anuncios_celulares:hover{
+       width: 700px;
+       height: 600px;
+       left: 150px;
+    }
+
+    footer{
+        background-color:#242445;
+        width: 390px;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .div_rodape{
+        max-width: 390px;
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        list-style: none;
+    }
+    
+    .logo_rodape{
+        width: 93px;
+        height: 40px;
+    }
+    
+    .h1_footer {
+        font-family: "Poppins";
+        font-weight: 200;
+        font-size: 12px;
+        color: #ffff;
+        display: flex;
+        
+    }
+    
+    .menu_rodape{
+        list-style: none;
+    }
+    
+    .linkedin_2{
+        width: 50px;
+        height: 10px;
+    }
+}
