@@ -185,7 +185,7 @@ footer{
 
 @media(max-width:440px){
     section{
-        max-width: 440px;
+        width: 430px;
         width: 100%;
         margin: auto;
         position: relative;
@@ -195,25 +195,21 @@ footer{
     }
 
     .logo{
-        width: 130px;
+        width: 93px;
         height: 40px;
     }
     
     .menu{
-        max-width: 440px;
-        padding: 0 16px;
         display: flex;
-        justify-content: space-between;
+         justify-content: space-between;
         margin: auto;
         list-style: none;
-        font-family: "Poppins";
-        gap: 12px;
     }
     
     nav{
         display: flex;
         align-items: center;
-        gap: 32px;
+        gap: 16px;
     }
     
     
@@ -260,7 +256,7 @@ footer{
         border-bottom: 80px solid transparent;
         border-right: 80px solid #C21D59;
         position: absolute;
-        right: 0%;
+        right: -40px;
         top: 30px;
         display: flex;
         align-items:center ;
@@ -300,7 +296,7 @@ footer{
         display: flex;
         justify-content: center;
         top: 300px;
-        width: 440px;
+        width: 430px;
         height: 186px;
     }
     
@@ -310,17 +306,23 @@ footer{
     }
 
     .trafego_pago{
-        width: 440px;
+        width: 430px;
         position: absolute;
         top: 570px;
         display: flex;
         right: 0%;
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
     }
     
     .ultima{
-        width: 440px;
+        width: 430px;
         position: absolute;
         top: 900px;
+        padding-left: 18px;
+        display: flex;
+        align-items: flex-end;
     }
     
     .circulo{
@@ -352,9 +354,8 @@ footer{
     }
     
     .anuncios_celulares:hover{
-       width: 700px;
-       height: 600px;
-       left: 150px;
+       width: 255px;
+       height: 300px;
     }
 
     footer{
@@ -365,7 +366,7 @@ footer{
     }
     
     .div_rodape{
-        max-width: 440px;
+        width: 440px;
         width: 100%;
         height: 80px;
         padding: 20px;
