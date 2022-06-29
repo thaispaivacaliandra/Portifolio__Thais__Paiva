@@ -207,6 +207,7 @@ footer{
         margin: auto;
         list-style: none;
         font-family: "Poppins";
+        gap: 12px;
     }
     
     nav{
@@ -260,7 +261,7 @@ footer{
         border-right: 80px solid #C21D59;
         position: absolute;
         right: 0%;
-        top: 80px;
+        top: 30px;
         display: flex;
         align-items:center ;
     }
@@ -297,10 +298,10 @@ footer{
     .site_azul{
         position: absolute;
         display: flex;
-        align-content: center;
+        justify-content: center;
         top: 300px;
-        width: 339px;
-        height: 258px;
+        width: 440px;
+        height: 186px;
     }
     
     .azul{
@@ -311,14 +312,15 @@ footer{
     .trafego_pago{
         width: 440px;
         position: absolute;
-        top: 600px;
+        top: 570px;
         display: flex;
+        right: 0%;
     }
     
     .ultima{
         width: 440px;
         position: absolute;
-        top: 1000px;
+        top: 900px;
     }
     
     .circulo{
@@ -329,11 +331,15 @@ footer{
         width: 381px;
         height: 350px;
     }
+    .circL{
+        width: 440px;
+        height: 250px;
+    }
 
     .circ2{
         width: 381px;
         height: 350px;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .tel{
@@ -353,13 +359,13 @@ footer{
 
     footer{
         background-color:#242445;
-        width: 390px;
+        width: 440px;
         width: 100%;
         height: 80px;
     }
     
     .div_rodape{
-        max-width: 390px;
+        max-width: 440px;
         width: 100%;
         height: 80px;
         padding: 20px;
