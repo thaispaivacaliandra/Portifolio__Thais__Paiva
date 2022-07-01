@@ -183,6 +183,14 @@ footer{
    transition: all 600ms;
 }
 
+.wpp{
+    position: fixed;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+}
+
 @media(max-width:440px){
     section{
         width: 430px;
@@ -200,10 +208,12 @@ footer{
     }
     
     .menu{
+        width: 430px;
         display: flex;
          justify-content: space-between;
         margin: auto;
         list-style: none;
+        padding: 16px;
     }
     
     nav{
@@ -357,6 +367,15 @@ footer{
        width: 255px;
        height: 300px;
     }
+
+    .wpp{
+        position: fixed;
+        right: 40px;
+        width: 80px;
+        height: 80px;
+        bottom: 100px;
+    }
+    
 
     footer{
         background-color:#242445;

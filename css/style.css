@@ -149,6 +149,14 @@ footer{
     height: 50px;
 }
 
+.wpp{
+    position: fixed;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+}
+
 @media(max-width:440px) {
     section{
         max-width: 440px;
@@ -265,6 +273,14 @@ footer{
         font-size: 24px;
         font-weight: 700;
         text-align: left;
+    }
+
+    .wpp{
+        position: fixed;
+        right: 10px;
+        width: 80px;
+        height: 80px;
+        bottom: 100px;
     }
     
     footer{

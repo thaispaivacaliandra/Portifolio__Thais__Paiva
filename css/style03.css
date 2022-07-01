@@ -59,11 +59,8 @@ section{
     color: white;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 581px;
-    height: 56px;
+.form{
+    margin-top: 120px;
 }
 
 
@@ -131,6 +128,14 @@ footer{
     height: 50px;
 }
 
+.wpp{
+    position: fixed;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+}
+
 
 @media(max-width:440px) {
 body{
@@ -142,6 +147,7 @@ body{
     justify-content: space-between;
     margin: auto;
     list-style: none;
+    padding: 16px;
 }
 
 a {
@@ -198,33 +204,18 @@ section{
 
 .cont{
     max-width: 390px;
-    padding-top: 16px;
+    padding-top: 290px;
     color: white;
 }
 
-.formulario{
-    max-width: 390px;
-    padding-top: 10px;
-    
+.form{
+    margin: 70px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 345px;
-    height: 56px;
+.form2{
+    width: 200px;
+    height: 250px;    
 }
-
-input{
-    background-color: #C21D59;
-    color: #ffff;
-    height: 56px;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 24px;
-}
-
 
 .id__botao{
     background-color: #420E20;
@@ -295,4 +286,13 @@ footer{
     width: 50px;
     height: 10px;
 }
+
+.wpp{
+    position: fixed;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    bottom: 90px;
+}
+
 }
