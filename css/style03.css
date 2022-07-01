@@ -177,7 +177,7 @@ nav{
 section{
     width: 430px;
     width: 100%;
-    height: 780px;
+    height: 880px;
     padding: 0 23px;
     margin: auto;
     position: relative;
@@ -214,7 +214,7 @@ section{
 
 .form2{
     width: 200px;
-    height: 250px;    
+    height: 310px;    
 }
 
 .id__botao{
@@ -290,8 +290,8 @@ footer{
 .wpp{
     position: fixed;
     right: 0;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     bottom: 90px;
 }
 
