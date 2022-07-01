@@ -59,12 +59,6 @@ section{
     color: white;
 }
 
-.formulario{
-    max-width: 581px;
-    padding-top: 216px;
-    
-}
-
 form{
     display: flex;
     flex-direction: column;
@@ -72,31 +66,11 @@ form{
     height: 56px;
 }
 
-input{
-    background-color: #C21D59;
-    color: #ffff;
-    height: 56px;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 24px;
-}
-
-
-.id__botao{
-    background-color: #420E20;
-    color: #ffff;
-    width: 166px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: none;
-}
 
 p{
     font-family: Heebo;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 35px;
     text-align: left;
     margin-bottom: 64px;
