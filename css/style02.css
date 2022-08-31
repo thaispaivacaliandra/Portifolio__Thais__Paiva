@@ -34,7 +34,6 @@ nav{
     gap: 32px;
 }
 
-
 a{
     color: white;
     text-decoration: none;
@@ -51,89 +50,51 @@ li{
     color: #ffff;
 }
 
-#triangulo_para_baixo{
-    width: 0; 
-    height: 0; 
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 200px solid #C21D59;
-    border-radius: 50px;
+.instaverde{
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row-reverse;   
 }
 
-h2{
-    margin-bottom: 250px;
-    text-align: center;
-    color: #ffff;
-    font-size: 24px;
-    font-family: "Poppins";
+.fotoinsta{
+    width: 350px;
+    height: 350px;
+    margin-right: 7px;
+    margin-bottom: 7px;
 }
 
-#triangulo_para_esquerda{
-    width: 0;
-    height: 0;
-    border-top: 200px solid transparent;
-    border-bottom: 200px solid transparent;
-    border-right: 200px solid #C21D59;
-    position: absolute;
-    right: 0%;
-    top: 180px;
+.insta2{
     display: flex;
-    align-items:center ;
+    flex-direction: row-reverse;
 }
 
-h1{
-    margin-left: 80px;
-    text-align: center;
-    color: #ffff;
-    font-size: 24px;
-    font-family: "Poppins";
-}
-
-
-.posicao_triangulo{
-    position: absolute;
-    top: 204px;
-    transform: (-50% , -50%);
-    
-}
-
-.anuncios_celulares{
-    width: 1037px;
-    height: 415px;
-    position: absolute;
-    top: 317px;
+.instaro{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ro{
+    width: 350px;
+    height: 650px;
+    margin-right: 7px;
+    margin-bottom: 70px;
+}
+
+.ro:hover{
+    width: 500px;
+    height: 800px;
+    left: 150px;
     transition: all 600ms;
-}
+ }
 
-.site_azul{
-    position: absolute;
-    top: 787px;
-    width: 489px;
-    height: 374px;
-}
+.fotoinsta:hover{
+    width: 600px;
+    height: 500px;
+    left: 150px;
+    transition: all 600ms;
+ }
 
-.trafego_pago{
-    width: 1300px;
-    position: absolute;
-    top: 1400px;
-}
-
-.ultima{
-    width: 1300px;
-    position: absolute;
-    top: 2300px;
-}
-
-.circulo{
-    margin-top: 72px;
-}
-
-footer{
+ footer{
     background-color:#242445;
     ;
     width: 100%;
@@ -193,8 +154,9 @@ footer{
 
 @media(max-width:440px){
     section{
-        width: 430px;
-        width: 100%;
+        width: 440px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: auto;
         position: relative;
         display: flex;
@@ -238,142 +200,59 @@ footer{
         font-size: 12px;
         color: #ffff;
     }
-    
-    #triangulo_para_baixo{
-        width: 0; 
-        height: 0; 
-        border-left: 80px solid transparent;
-        border-right: 80px solid transparent;
-        border-top: 80px solid #C21D59;
-        border-radius: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    h2{
-        margin-bottom: 100px;
-        text-align: center;
-        color: #ffff;
-        font-size: 12px;
-        font-family: "Poppins";
-    }
-    
-    #triangulo_para_esquerda{
-        width: 0;
-        height: 0;
-        border-top: 80px solid transparent;
-        border-bottom: 80px solid transparent;
-        border-right: 80px solid #C21D59;
-        position: absolute;
-        right: -40px;
-        top: 30px;
-        display: flex;
-        align-items:center ;
-    }
-    
-    h1{
-        margin-left: 30px;
-        text-align: center;
-        color: #ffff;
-        font-size: 12px;
-        font-family: "Poppins";
-    }
-    
-    .posicao_triangulo{
-        position: absolute;
-        top: 70px;
-        transform: (-50% , -50%);
-        
-    }
-    
-    .anuncios_celulares{
-        width: 440px;
-        height: 192px;
-        position: absolute;
-        top: 100px;
-        display: flex;
-        justify-content: space-around;
-    }
 
-   .cel {
-        width: 142px;
-        height: 192px;
-    }
     
-    .site_azul{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 300px;
-        width: 430px;
-        height: 186px;
-    }
-    
-    .azul{
-        width: 243px;
-        height: 186px;
-    }
+.instaverde{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row-reverse;   
+}
 
-    .trafego_pago{
-        width: 430px;
-        position: absolute;
-        top: 570px;
-        display: flex;
-        right: 0%;
-        display: flex;
-        justify-content: center;
-        padding-left: 60px;
-    }
-    
-    .ultima{
-        width: 430px;
-        position: absolute;
-        top: 900px;
-        padding-left: 18px;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .circulo{
-        margin-top: 72px;
-    }
+.fotoinsta{
+    width: 140px;
+    height: 140px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
 
-    .circ{
-        width: 381px;
-        height: 350px;
-    }
-    .circL{
-        width: 440px;
-        height: 250px;
-    }
+.insta2{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
-    .circ2{
-        width: 381px;
-        height: 350px;
-        margin-top: 150px;
-    }
+.instaro{
+    display: flex;
+    flex-direction: row;
+}
 
-    .tel{
-        width: 82px;
-        height: 142px;
-    }
-    .tel2{
-        width: 82px;
-        height: 160px;
-    }
-    
-    .anuncios_celulares:hover{
-       width: 255px;
-       height: 300px;
-    }
+.ro{
+    width: 140px;
+    height: 250px;
+    margin-right: 7px;
+    margin-bottom: 70px;
+}
+
+.ro:hover{
+    width: 200px;
+    height: 400px;
+    left: 150px;
+    transition: all 600ms;
+ }
+
+.fotoinsta:hover{
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    transition: all 600ms;
+ }
+
 
     .wpp{
-        position: fixed;
+        position:fixed;
         right: 40px;
         width: 50px;
         height: 50px;
-        bottom: 100px;
+        bottom: 150px;
     }
     
 
