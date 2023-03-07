@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background-color: #070732;
+        
+    }
+    
+    section{
+        width: 100vw;
+        padding: 0 3%;
+        height: 100vh;
+        display: flex;
+        margin: auto;
+        position: relative;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+    
+    .menu{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        list-style: none;
+        font-family: "Poppins";
+        padding: 0 3%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    
+    p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 100 italic; 
+        font-size: 15px;
+        color: #fbf7f8;
+        margin-top: 50px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 700;
+        list-style: none;
+    }
+    
+    h1{
+        color: #ffff;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    article{
+       width: 40vw;
+    }
+
+    .linktree{
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .sss{
+        width: 80%;
+    }
+    .sss2{
+        width: 70%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .sss3{
+        width: 60%;
+    }
+
+    .wpp{
+        position: fixed;
+        right: 40px;
+        width: 80px;
+        height: 80px;
+        bottom: 50px;
+    }
+
+    @media(max-width:620px){
+      
+        section{
+            width: 100vw;
+      }
+      
+      .logo{
+          width: 60px;
+          height: 60px;
+      }
+      
+      nav{
+          gap: 12px;
+      }
+
+      h1{
+        color: #ffff;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 700;
+    }
+    p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 100 italic; 
+        font-size: 10px;
+        color: #fbf7f8;
+        margin-top: 1%;
+    }
+
+    .contato{
+        width: 100%;
+        margin-top: 10%;
+    }
+      
+      a{
+          color: white;
+          text-decoration: none;
+          font-family: "Poppins";
+          font-size: 8px;
+          font-weight: 700;
+          list-style: none;    
+      }
+      
+      .wpp{
+          position: fixed;
+          right: 10px;
+          width: 50px;
+          height: 50px;
+          bottom: 100px;
+      }
+      
+      }
+    

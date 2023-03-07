@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    }
+    
+body{
+     background-color: #070732;
+}
+button{
+    z-index: 2;
+    position: absolute;
+    top: 195px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 2px 2px black;
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  
+  button:active{
+    transform: scale(1.1);
+  }
+  
+  #back{
+    left: 1%;
+  }
+  
+  #forward{
+    right: 1%;
+  }
+  
+  #items-wrapper {
+    width: 20vw;
+    height: 20vw;
+    padding: 10px;
+  }
+  
+  #items {
+    position: relative;
+    left: 1%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    --webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  .item {
+    flex: none;
+    
+    width: 100%;
+    height: 100%;
+    
+    scroll-snap-align: start;
+    pointer-events: none;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  
+    object-fit: cover;
+  }
+
+
+
+
+
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+section{
+    padding: 3%;
+    width: 100vw;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    list-style: none;   
+}
+
+li{
+    font-family: "Poppins";
+    list-style: none;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.social{
+  padding:0 5% ;
+    margin: auto;
+    width: 20vw;
+}
+
+.wpp{
+    position: fixed;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+}
+
+@media(max-width:620px){
+  #items-wrapper {
+    width: 40vw;
+    height: 40vw;
+   
+  }
+
+  section{
+    height: 120vh;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+nav{
+    gap: 12px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 8px;
+    font-weight: 700;
+    list-style: none;    
+}
+
+.wpp{
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+}
+
+}
