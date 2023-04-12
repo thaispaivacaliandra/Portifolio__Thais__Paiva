@@ -20,7 +20,9 @@
     
     .foto{
         width: 60%;
-        height: 70%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
        
     }
 
