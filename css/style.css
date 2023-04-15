@@ -20,7 +20,7 @@
     
     .foto{
         width: 60%;
-        height: 50%;
+        height: 70%;
         display: flex;
         justify-content: center;
        
@@ -196,8 +196,8 @@
         }
 
         .foto{
-            width: 60%;
-            height: 60%;
+            width: 30%;
+            height: 40%;
            
         }
         
