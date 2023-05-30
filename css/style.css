@@ -68,7 +68,7 @@
         padding-top: 10px;
         position: absolute;
         right: 5vw;
-        top: 18vh;
+        top: 10vh;
     }
     
     h2{
@@ -90,7 +90,7 @@
         position: absolute;
         z-index: 2;
         right: 5vw;
-        top: 30vh;
+        top: 22vh;
     }
     button:hover{
         background-color: #363F6A;
