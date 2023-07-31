@@ -6,6 +6,10 @@
     color: white;
 }
 
+body{
+    background-color: #0C1117;
+}
+
 .bg-color{
     background-color: #0C1117;
     width: 100vw;
@@ -191,7 +195,7 @@ span{
 .container{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 20vh 18vh;
+    grid-template-rows: 40vh 40vh;
     grid-gap: 2px;
 }
 .port1{
@@ -265,4 +269,7 @@ span{
         align-items: center;
         gap: 20px;
     }
+
+    .container{
+        grid-template-rows: 20vh 18vh;}
 }
