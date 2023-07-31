@@ -190,36 +190,40 @@ span{
 
 .container{
     display: grid;
-    grid-template-columns: 3fr 5fr 3fr;
-    grid-template-rows: 20vh 30vh 10vh 10VH;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 40vh 40vh;
     grid-gap: 2px;
 }
 .port1{
-    background-color: aliceblue;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-.port2{
-    background-color:tomato;
     grid-column-start: 1;
     grid-column-end: 2;
 }
-.port3{
-    background-color:aqua;
+.port2{
+    overflow: hidden;
     grid-column-start: 2;
     grid-column-end: 4;
 }
+.home{
+    width: 100%;
+}
+.port3{
+    overflow: hidden;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
 .port4{
-    background-color:yellow;
-    grid-column-start: 1;
+    overflow: hidden;
+    grid-column-start: 2;
     grid-column-end: 3;
 }
 .port5{
-    background-color:thistle;
+    overflow: hidden;
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 6;
 }
-
+.port1:hover{
+    transform: scale(1.5);
+}
 
 
 @media(max-width: 574px){
