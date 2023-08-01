@@ -8,6 +8,7 @@
 
 body{
     background-color: #0C1117;
+    width: 100vw;
 }
 
 .bg-color{
@@ -174,18 +175,23 @@ span{
     font-size: 24px;
 }
 
+.alinhar-redes{
+    display: flex;
+    gap: 16px;
+}
+
 .p_sobre{
     font-size: 14px;
     line-height: 20px;
     width: 90%;
-    text-align: center;
+    text-align: justify;
 }
 
 .redessociais{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 35%;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .rede{
@@ -201,11 +207,14 @@ span{
 .port1{
     grid-column-start: 1;
     grid-column-end: 2;
+    overflow: hidden;
+    position: relative;
 }
 .port2{
     overflow: hidden;
     grid-column-start: 2;
     grid-column-end: 4;
+    position: relative;
 }
 .home{
     width: 100%;
@@ -214,19 +223,54 @@ span{
     overflow: hidden;
     grid-column-start: 4;
     grid-column-end: 6;
+    position: relative;
 }
 .port4{
     overflow: hidden;
     grid-column-start: 2;
     grid-column-end: 3;
+    position: relative;
 }
 .port5{
     overflow: hidden;
     grid-column-start: 3;
     grid-column-end: 6;
+    position: relative;
 }
-.port1:hover{
-    transform: scale(1.5);
+
+.olhos{
+    width:10px;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #003ADB;
+    opacity: 80%;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 12px;
+}
+video{
+    width: 100%;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: #0C1117;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 
