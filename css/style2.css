@@ -1,0 +1,50 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+  }
+
+  body{
+   width: 100vw;
+    background-image: url("../assets/back.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+ .quadro{
+    width: 100%;
+    height: 20%;
+    background-color: #00913D;
+    opacity: 56%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .menu{
+   display: flex;
+   justify-content: center;
+ }
+
+ a{
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ .alinhar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    width: 100vw;
+    gap: 16px;
+ }
+
+ .seta{
+    width: 20%;
+    height: 100%;
+ }
